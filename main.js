@@ -51,15 +51,22 @@ const isCarnivore = function(dinosaur) {
 }
 
 const isExtinct = function(dinosaur) {
+return dinosaur.extinct === true;
+
 }
 
 const isTriassic = function(dinosaur) {
+return dinosaur.period === 'Triassic';
+
 }
 
 const isJurassic = function(dinosaur) {
+  return dinosaur.period === 'Jurassic'
 }
 
 const isCretaceous = function(dinosaur) {
+return dinosaur.period === 'Cretaceous'
+
 }
 
 
