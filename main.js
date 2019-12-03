@@ -46,6 +46,8 @@ const makeExtinct = function(dinosaur) {
 }
 
 const isCarnivore = function(dinosaur) {
+  const {carnivore} = dinosaur;
+  return dinosaur.carnivore;
 }
 
 const isExtinct = function(dinosaur) {
